@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading-container{
+    width: 100%;
+    height: 75px;
+    background-color: brown;
+    position:fixed;
+}
+.heading-container h1{
+    color: beige;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 40%;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    z-index: -1;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 100px;
+}
+
+.main-container div{
+    width: 325px;
+    height: 350px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main-container div:hover{
+    border: 2.5px solid black;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.main-container div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.main-container div a:hover{
+    text-decoration: underline;
+}
+.container-1{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/AI-robot-960x540.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-2{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/school-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-3{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/07/woman-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-4{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/SPAIN-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-5{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/drone-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-6{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/Sita-Returns-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-7{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/07/Biden-1-1-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-8{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/07/digital-diplomacy-300x220.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-9{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/07/soccer-match-300x220.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-10{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/07/The-Dialectic-scaled-300x220.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-11{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/World-500x280.webp);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+.container-12{
+    background-image: url(https://www.fairobserver.com/wp-content/uploads/2024/08/man-1-500x280.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+ button{
+    position: absolute;
+    bottom: 25%;
+}
